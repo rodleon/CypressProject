@@ -13,5 +13,5 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v5
         with:
-          tesst: npm run runner
+          command: npm run runner
     
