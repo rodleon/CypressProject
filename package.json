@@ -1,0 +1,15 @@
+{
+  "name": "cypro",
+  "version": "1.0.0",
+  "description": "Github Actions Test",
+  "main": "index.js",
+  "scripts": {
+    "cypress": "cypress open",
+    "runner": "cypress open --e2e --browser chrome"
+  },
+  "author": "leon",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.13.0"
+  }
+}
